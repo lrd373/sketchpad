@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    width: 960px;
+}
+
+#reset-button {
+    margin: 20px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: "1fr 1fr 1fr";
+    row-gap: 0;
+    column-gap: 0;
+    margin: auto;
+    justify-content: center;
+  }
+
+.mouse-over{
+    background-color: blueviolet;
+}
