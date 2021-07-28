@@ -32,7 +32,7 @@ function randomRGB () {
 
 function increaseOpacity (element) {
     let boxOpacity = +element.dataset.opacity;
-    console.log("data-opacity:" + boxOpacity);
+    
     if (boxOpacity < 1) {
         boxOpacity += 0.1;
         element.style.backgroundColor = `rgba(0, 0, 0, ${boxOpacity})`;
@@ -62,8 +62,6 @@ resetButton.addEventListener("click", ()=>{
         
         container.appendChild(gridBox);   
     }
-
-    console.log ("added the grids, done.");
     
 });
 
