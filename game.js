@@ -50,7 +50,7 @@ resetButton.addEventListener("click", ()=>{
     for (let i=0; i<(gridDimensions**2); i++) {
         let gridBox = document.createElement("div");
 
-        let boxSideLength = 960/gridDimensions;
+        let boxSideLength = 800/gridDimensions;
         gridBox.style.cssText = 
             `width: ${boxSideLength}px; height: ${boxSideLength}px; background-color: white;`;
         
